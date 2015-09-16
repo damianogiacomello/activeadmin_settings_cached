@@ -1,0 +1,16 @@
+it:
+  activeadmin_settings_cached:
+    settings:
+      update:
+        success: Preference aggiornate correttamente.
+
+  activerecord:
+    models:
+      settings: 'Preferenze'
+
+  settings:
+    menu:
+      label: 'Preferenze'
+    index:
+      name: 'Nome'
+      value: 'Valore'

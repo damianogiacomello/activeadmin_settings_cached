@@ -4,17 +4,16 @@
 
 Provides a nice UI interface for [rails-settings-cached](https://github.com/huacnlee/rails-settings-cached) gem in [Active Admin](http://activeadmin.info/).
 
-## Installation
+## Gem installation
 
-Add this line to your application's Gemfile:
+Add to your Gemfile:
 
-```ruby
-gem 'activeadmin_settings_cached'
-```
+    gem 'activeadmin_settings_cached' # For 4.x
+    gem 'activeadmin_settings_cached', github: 'damianogiacomello/activeadmin_settings_cached', branch: 'rails-3-x' # For 3.x
 
-And then execute:
+or run this command:
 
-    $ bundle
+    gem install activeadmin_settings_cached -v '~> 0.1.1' # For 4.0.x
 
 Create your settings model:
 
